@@ -31,4 +31,4 @@ This repository is an android app application for wearing protective gear and no
 
 # Reference
 * SafetyAll_Web
- * https://github.com/S-jooyoung/SafetyAll.git
+  * https://github.com/S-jooyoung/SafetyAll.git
