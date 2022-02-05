@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="groupArray">
+        <item>건축</item>
+        <item>전기</item>
+        <item>통신</item>
+        <item>소방</item>
+        <item>토목</item>
+        <item>조경</item>
+        <item>설비</item>
+    </array>
+</resources>

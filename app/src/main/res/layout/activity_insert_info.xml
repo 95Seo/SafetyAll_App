@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".InsertInfoActivity">
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/smart_helmet_logo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editext_background"
+        android:hint="이름"
+        android:layout_marginTop="15dp"
+        android:inputType="textPersonName"
+        android:id="@+id/etName"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editext_background"
+        android:hint="전화번호"
+        android:layout_marginTop="15dp"
+        android:id="@+id/etPhone"
+        android:inputType="phone"
+        android:padding="10dp"/>
+
+    <Spinner
+        android:id="@+id/etGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:entries="@array/groupArray"
+        android:layout_marginTop="15dp"
+        android:padding="10dp">
+    </Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btInsert"
+        android:text="등록"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="15dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</LinearLayout>
