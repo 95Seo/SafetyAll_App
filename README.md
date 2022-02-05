@@ -28,3 +28,7 @@ This repository is an android app application for wearing protective gear and no
 
 * Bluetooth Pairing
   * http://jinyongjeong.github.io/2018/09/27/bluetoothpairing/
+
+# Reference
+* SafetyAll_Web
+ * https://github.com/S-jooyoung/SafetyAll.git
